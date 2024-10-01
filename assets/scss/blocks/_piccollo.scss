@@ -21,4 +21,36 @@ main {
         width: 390px;
         padding-top: 10px;
     }
+    @media (max-width:860px){
+        .picollo_left_right{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+        .picollo_right{
+            margin-left: -70px;
+        }
+    }
+    @media (max-width:454px){
+    
+
+        .picollo_img{
+            width: 400px;
+        }
+        .picollo_right{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            padding-left: 60px;
+           }
+           .picollo_suptitle{
+            width: 300px;
+           }
+    }
+    @media (max-width:400px) {
+        .picollo_img {
+            width: 350px;
+        }
+    }
 }

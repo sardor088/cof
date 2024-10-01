@@ -1,5 +1,5 @@
 main {
-   
+
 
     .our_left_right {
         display: flex;
@@ -7,6 +7,7 @@ main {
         justify-content: space-evenly;
         padding-top: 80px;
     }
+
     .main_title {
         color: rgb(0, 0, 0);
         font-family: Roboto;
@@ -33,4 +34,33 @@ main {
         padding-top: 10px;
     }
 
+    @media (max-width:900px) {
+        .our_left_right {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    @media (max-width:454px) {
+        .our_img {
+            width: 400px;
+        }
+
+        .our_right {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .our_suptitle {
+            width: 300px;
+        }
+    }
+
+    @media (max-width:400px) {
+        .our_img {
+            width: 350px;
+        }
+    }
 }

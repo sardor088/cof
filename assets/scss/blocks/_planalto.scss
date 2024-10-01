@@ -25,4 +25,46 @@ main {
     .planalto_img {
         width: 450px;
     }
+
+    @media (max-width:860px) {
+        .planalto_left_right {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            margin-top: 100px;
+        }
+
+        .planalto_left {
+            margin-left: -70px;
+        }
+    }
+
+    @media (max-width:454px) {
+
+
+        .planalto_img {
+            width: 400px;
+        }
+
+        .planalto_left {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            padding-left: 60px;
+
+        }
+
+        .planalto_suptitle {
+            width: 350px;
+        }
+        .planalto_suptitle{
+            width: 300px;
+        }
+    }
+    @media (max-width:400px) {
+        .planalto_img {
+            width: 350px;
+        }
+    }
 }

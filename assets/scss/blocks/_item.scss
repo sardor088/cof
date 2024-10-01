@@ -37,6 +37,7 @@ main {
 padding-top: 80px;
     }
 
+   
     .item_title {
         color: rgb(51, 51, 51);
         font-family: Roboto;
@@ -54,4 +55,48 @@ padding-top: 80px;
         width: 377px;
         padding-top: 10px;
     }
+        @media (max-width:1326px){
+            .item_list_img{
+                width: 373px;
+                height: 400px;
+            }
+        }
+        @media (max-width:1160px){
+            .item_list_img{
+                width: 340px;
+                height: 390px;
+            }
+            .item_suptitle{
+                width: 300px;
+            }
+        }
+        @media (max-width:1030px){
+            .item_list_img{
+                width: 290px;
+                height: 300px;
+            }
+        .item{
+            width: 100%;
+            height: 600px;
+        }
+        }
+        @media (max-width:920px){
+            .item_list{
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+            }
+           
+        }
+        @media (max-width:900px){
+            .item{
+                width: 100%;
+                height: 1800px;
+            }
+        }
+        @media (max-width:370px){
+            .item_titlee{
+                text-align: center;
+            }
+        }
 }

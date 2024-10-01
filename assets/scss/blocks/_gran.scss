@@ -21,4 +21,46 @@ main {
         width: 390px;
         padding-top: 10px;
     }
+    @media (max-width:860px){
+        .gran_left_right{
+            display: flex;
+            flex-direction: column;
+            margin-top: 70px;
+            gap: 40px;
+        }
+        .gran_left{
+            margin-left: -70px;
+        }
+
+    }
+    @media (max-width:454px){
+    
+
+        .gran_img{
+            width: 400px;
+        }
+        .gran_left{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            padding-left: 40px;
+           }
+           .gran_suptitle{
+            width: 300px;
+           }
+    }
+    @media (max-width:400px) {
+        .gran_img {
+            width: 350px;
+        }
+    }
+    @media (max-width:360px){
+        .gran_title{
+            padding-left: 40px;
+        }
+        .gran_suptitle{
+            padding-left: 80px;
+        }
+    }
 }
